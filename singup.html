@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<p lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./js/bootstrap.bundle.min.js">
+
+</head>
+<body style="background-color: rgb(47, 80, 69);">
+<div class="container" style="width: 350px;height: 500px; margin-top: 30px; background-color: rgb(9, 173, 173); border-radius: 10px;">
+ <div class="well well-sm" style="text-align: center;font-weight: 200; margin-top: 10px; font-family: Cambria; border-radius: 40px;"> <h2>Signup form</h2></div>
+       <div class="form-group">
+         <label>Name:</label>
+         <input type="text" class="form-control" id="lname">
+       </div>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="lemail">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="lpass">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        
+        <button type="submit" class="btn btn-default" onclick="signup()">signup</button><br>
+        <div class="checkbox" style="margin-top: -70px;margin-left: 200px;">
+        <label for="login" >Already registerd:</label></div>
+        <a href="signin.html"><button type="submit" class="btn btn-primary" style=" margin-left: 220px;margin-top: -10px;" >login</button></a>
+      
+      </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
